@@ -1,6 +1,6 @@
 {
   "name": "videojs-vlc",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Afterster",
   "description": "Video.js VLC Tech plug-in",
   "license": "Apache-2.0",
