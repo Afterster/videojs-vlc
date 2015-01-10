@@ -2,9 +2,11 @@
 
 Video.js VLC Tech plug-in
 
-A Video.js tech plugin that add VLC fallback.
+A Video.js tech plugin that add VLC Media Player fallback.
 
 ## Getting Started
+
+VLC Web Plugin must be installed on the browser to work.
 
 Once you've added the plugin script to your page, you can use it with any supported video:
  * Include JavaScript files
