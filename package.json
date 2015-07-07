@@ -11,6 +11,10 @@
     "video",
     "player"
   ],
+  "repository" : {
+	"type": "git",
+	"url": "https://github.com/Afterster/videojs-vlc.git"
+  },
   "dependencies": {},
   "devDependencies": {
     "grunt-contrib-clean": "^0.4",
