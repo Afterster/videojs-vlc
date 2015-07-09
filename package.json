@@ -1,9 +1,14 @@
 {
   "name": "videojs-vlc",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Afterster",
   "description": "Video.js VLC Tech plug-in",
   "license": "Apache-2.0",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/Afterster/videojs-vlc/issues"
+  },
+  "homepage": "https://github.com/Afterster/videojs-vlc",
   "keywords": [
     "videojs",
     "vlc",
@@ -12,22 +17,22 @@
     "player"
   ],
   "repository" : {
-	"type": "git",
-	"url": "https://github.com/Afterster/videojs-vlc.git"
+    "type": "git",
+    "url": "https://github.com/Afterster/videojs-vlc.git"
   },
   "dependencies": {},
   "devDependencies": {
-    "grunt-contrib-clean": "^0.4",
-    "grunt-contrib-concat": "^0.3",
-    "grunt-contrib-jshint": "^0.6",
-    "grunt-contrib-qunit": "^0.2",
-    "grunt-contrib-uglify": "^0.2",
-    "grunt-contrib-watch": "^0.4",
-    
-    "video.js": "^4.5",
-    "qunitjs": "^1.12"
+    "grunt": "^0.4",
+    "grunt-contrib-clean": "^0.6",
+    "grunt-contrib-concat": "^0.5",
+    "grunt-contrib-jshint": "^0.11",
+    "grunt-contrib-qunit": "^0.7",
+    "grunt-contrib-uglify": "^0.9",
+    "grunt-contrib-watch": "^0.6",
+    "video.js": "^4.12",
+    "qunitjs": "^1.18"
   },
   "peerDependencies": {
-    "video.js": "^4.5"
+    "video.js": "^4.12"
   }
 }

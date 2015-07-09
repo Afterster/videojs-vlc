@@ -32,6 +32,20 @@ Supported content type will depends on your VLC installation, but basically it s
  
 As this cannot be determined in advance, this plug-in always return success on file type support test. It's why you should always put it at the end of techOrder property.
 
+## Build
+Building the plug-in is optional, you can directly use /lib/videojs-vlc.js file but it is good practice to be sure your environment is well configured.
+It will also simplify your test as you will be able to use /example.html sample file directly after build.
+
+ * Install npm (node.js)
+ * Install grunt: `npm install -g grunt`
+ * Install project dependencies: `npm install`
+ * Run grunt : `grunt`
+
 ## Release History
 
- - 0.1.0: Initial release
+ - 0.2.0
+    - Fix poster image
+    - Fix fullscreen
+    - Fix autoplay
+ - 0.1.0
+    - Initial release
